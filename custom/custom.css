@@ -1,0 +1,230 @@
+#navstrip {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+.betweennavbarandstrip {
+    padding: 0;
+    margin-top: 20px;
+}
+
+.raj {
+    font-family: 'Rock Salt', cursive;
+    font-weight: bold;
+    font-size: 30px; 
+    text-align: center;
+    color: green;
+    margin-bottom: 40px;
+   
+}
+
+.dashiki {
+    text-align: center;
+    font-size: 10px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 40px; 
+}
+
+#page1mp {
+    text-align: center;
+}
+
+#page1dp {
+    text-align: center;
+}
+
+.shop-button {
+     color:white;
+     padding: 15px;
+     background-color: green; 
+}
+    .navitems {
+        margin-top: 15px;
+        font-size: 20px;
+        color: black;
+        font-weight: light;
+    }
+
+.shop-button-div {
+     text-align: center;
+     margin: 20x 70px;
+}
+
+.icon-bar {
+    color: black;
+}
+
+.footer {
+    width: 100%;
+    background-color: grey;
+    height: 200px;
+}
+
+.copyrights {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+.img1 {
+
+}
+
+.product1bgdiv {
+  width: 240px;
+  height: 270px;
+  margin-left: 300px;
+  float: left;
+  background-color:lightgrey; 
+  border: 5px solid lightgrey;
+}
+
+
+.product2bgdiv {
+  width: 240px;
+  height: 270px;
+  background-color:lightgrey; 
+  margin-left: 100px;
+  float: left;
+  border: 5px solid lightgrey;
+}
+
+
+.product3bgdiv {
+  width: 240px;
+  height: 270px;
+  background-color: lightgrey;
+  margin-left: 950px;
+  border: 5px solid lightgrey;
+}
+
+.headingdiv1 {
+   margin-left: 370px;
+   
+}
+
+.headingdiv2 {
+   margin-left: 500px;
+   
+}
+
+
+.storediv {
+    margin-top: 200px;
+}
+
+
+.bigcartbox {
+  width: 440px;
+  height: 570px;
+  margin-left: 200px;
+  margin-top:100px; 
+  background-color:lightgrey; 
+  border: 5px solid lightgrey;
+}
+
+.smallbox1cart {
+  width: 190px;
+  height: 200px;
+  margin-left: 220px;
+  background-color:lightgrey; 
+  border: 5px solid lightgrey;
+  float: left;
+}
+
+.smallbox2cart {
+  width: 190px;
+  height: 200px;
+  margin-left: 420px;
+  background-color:lightgrey; 
+  border: 5px solid lightgrey;
+  
+}
+
+.infoboxsale {
+    margin-top: -600px;
+    margin-right: 200px;
+    float: right;
+}
+
+.saleboxhead {
+    margin-bottom: 50px;
+}
+
+.buybutton {
+    padding: 20px 50px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+
+/*----------------------------------------MEDIA FILES BELOW --------------------------*/
+
+@media (min-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */
+#page1dp { display: none; }
+#page1mp { display: block; }
+.navitems {
+       display: none;
+    }
+
+
+}
+
+
+
+
+@media (min-width:481px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+#page1dp { display: none; }
+#page1mp { display: block; }
+.navitems {
+       display: block;
+    }
+
+}
+
+
+
+@media (min-width:641px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+
+
+@media (min-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+
+
+
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+
+
+#page1mp { display: none; }
+#page1dp { display: block; }
+.shop-button-div { margin: 40px 150px; }
+.shop-button {
+     color: blueviolet;
+     padding: 30px 40px;
+     font-size: 30px;
+}
+    .dashiki {
+    font-size: 20px;
+}
+
+.raj { 
+    font-size: 50px; 
+
+}
+
+.navitems {
+       display: block;
+    }
+
+
+}
+
+
+
+
+
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
